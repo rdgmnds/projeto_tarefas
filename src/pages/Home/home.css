@@ -1,0 +1,70 @@
+.lista-tarefas{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lista-tarefas h1{
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.lista-tarefas span{
+    text-align: center;
+    font-size: 30px;
+    color:aquamarine;
+    margin-bottom: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.form input{
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    height: 60px;
+}
+
+.form button{
+    background-color: rgb(6, 93, 255);
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    height: 60px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color:rgb(8, 12, 63);
+    transition: 0.3s;
+}
+
+.lista-tarefas a{
+    text-decoration: none;
+    color: rgb(146, 145, 145);
+    margin-top: 10px;
+}
+
+.lista-tarefas a:hover{
+    color: aliceblue;
+    transition: 0.3s;
+}

@@ -1,0 +1,69 @@
+.admin-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.admin-container h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.form textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.form button{
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.list{
+    margin-top: 50px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.list button{
+    margin: 10px 0;
+    margin-right: 10px;
+    padding: 4px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-concluir{
+    background-color: transparent;
+    color: rgb(255, 207, 47);
+}
+
+.btn-logout{
+    position: absolute;
+    bottom: 6%;
+    left: 4%;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-logout:hover{
+    background-color: red;
+}
